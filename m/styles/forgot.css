@@ -1,0 +1,97 @@
+
+body
+{
+    margin: 0px;
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.background_header
+{
+    background: #e6e6e6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
+    background: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+    background: -o-linear-gradient(top, #ffffff, #e6e6e6);
+
+    border-bottom: 2px solid #dddddd;
+
+
+    height: 35px;
+}
+
+.header_logo
+{
+    /*content:url(../images/forgot_password/logo_tmn.png);*/
+
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.content_forgot
+{
+    margin: 17px 10px;
+    padding: 25px 8px 15px 8px;
+
+    background-color: #f0f0f0;
+
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+
+.form_textbox
+{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    -webkit-appearance: none;
+
+    width: 260px;
+    height: 32px;
+
+    font-size: 16px;
+
+    padding: 0px 5px;
+
+    color: #555;
+}
+
+.button
+{
+    text-decoration: none;
+
+    border-top: 1px solid #c37221;
+    background: #fc6220;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fca35b), to(#fc6220));
+    background: -webkit-linear-gradient(top, #fca35b, #fc6220);
+    background: -moz-linear-gradient(top, #fca35b, #fc6220);
+    background: -ms-linear-gradient(top, #fca35b, #fc6220);
+    background: -o-linear-gradient(top, #fca35b, #fc6220);
+    padding: 8px 38px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 -1px 0;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+.button:active
+{
+    text-decoration: none;
+    color: white;
+}

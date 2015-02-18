@@ -1,0 +1,415 @@
+
+	body{
+		font-size:16px;
+		font-family: sans-serif;
+		color:rgb(112,112,112);
+	}
+	#header_text,.bankdetail_header_text{
+		width: 100%;
+		height: 30px;
+		display: block;
+		margin: 0px;
+		border-bottom: 1px solid #b5b3b4;
+		border-top: 1px solid #aeb7bd;
+	}
+		#header_text h3{
+			color:white;
+			margin:0 0 0 10px;
+			padding:0px;
+			text-shadow: 0 -1px 0 #888;
+		}
+	
+	.bank_content{
+		width:100%;
+		height:79px;
+		display: block;
+		border-bottom:1px solid #e6e6e6;
+		position: relative;
+	}
+		.banklogo{
+			position:absolute;
+			top:5px;
+			left:3%;
+			display: block;
+		}
+		.bankdetail{
+			position:absolute;
+			top:25px;
+			left:33%;
+		}
+			.bankdetail span{
+				font-size:22px;
+				font-weight: bold;
+			}
+	.bankdetail_header_text{
+		height:110px;
+		width:100%;
+		background: #f6f6f6;
+		border-bottom: 1px solid #ececec;
+		position: relative;
+	}
+		#wrapper_bankdetail_text{
+			position: absolute;
+			top:5px;
+			left:10px;
+			display:block;
+			word-wrap: break-word;
+		}
+			#wrapper_bank_logo{
+				display: block;
+				float:left;
+			}
+			#wrapper_bank_detail{
+					display: block;
+					float:left;
+					font-size: 15px;
+					color:rgb(110, 110, 110);
+					width:230px;	
+					height:100px;		
+				}
+				#bank_detail_head{
+					font-size: 22px;
+					font-weight: bold;
+					padding: 0px;
+					margin:0px;
+				}
+				#wrapper_bank_detail span{
+					margin:0px;
+				}
+	#wrapper_bankdetail_content h4,h3{
+		font-size: 20px;
+		margin:10px 10px 0px 20px;
+	}
+	
+	#wrapper_bankdetail_content ul{
+		margin-left: 10px;	
+		margin-top: 10px;
+		list-style: none;
+	}
+	
+	#wrapper_bankdetail_content li{
+		/*width:215px;*/
+		list-style-type: disc;
+		/*background-image: url('../images/addmoney/instruction/normal/icon-4-2.png');*/
+	    /*background-position: 0 5px;*/
+	    background-repeat: no-repeat;
+	    /*padding-left: 1.5em;*/
+	    padding-bottom: 10px;
+	}
+		
+	#wrapper_bankdetail_content p{
+		word-wrap: break-word;
+		margin:20px;	
+	}
+		
+	#bay_logo{
+		background-image: url('../images/addmoney/instruction/normal/Bank-ks-2.png');
+		width:75px;
+		height:75px;
+	}
+	#bbl_logo{
+		background-image: url('../images/addmoney/instruction/normal/Bank-bk-2.png');
+		width:75px;
+		height:75px;
+	}
+	#ktb_logo{
+		background-image: url('../images/addmoney/instruction/normal/Bank-ktb-2.png');
+		width:75px;
+		height:75px;
+	}
+	#tmb_logo{
+		background-image: url('../images/addmoney/instruction/normal/Bank-tmb-2.png');
+		width:75px;
+		height:75px;
+	}
+	#scb_logo{
+		background-image: url('../images/addmoney/instruction/normal/Bank-SCB-2.png');
+		width:75px;
+		height:75px;
+		background-size:75px 75px;
+	}
+	#cimbt_logo{
+        background-image: url('../images/addmoney/instruction/normal/Bank-cimbt.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+        width:75px;
+        height:75px;
+    }
+    #tbank_logo{
+        background-image: url('../images/addmoney/instruction/normal/Bank-tbank.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+        width:75px;
+        height:75px;
+    }
+	#cp_logo{
+        background: url('../images/addmoney/instruction/normal/CP-01.png') no-repeat top center;
+		width:75px;
+		height:75px;
+	}
+	#true_logo{
+		background-image: url('../images/addmoney/instruction/normal/Trueshop-01.png');
+		width:75px;
+		height:75px;
+	}
+	#seveneleven_logo{
+		background-image: url('../images/addmoney/instruction/normal/seven.png');
+		background-size: 68px;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:75px;
+	}
+	#kiosk_logo{
+		background-image: url('../images/addmoney/other_kiosk/icon_truemoney.png');
+		width:75px;
+		height:75px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#tmx_logo{
+        background-image: url('../images/addmoney/instruction/normal/tmx.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:75px;
+        height:75px;
+    }
+    #cashcard_logo{
+        background-image: url('../images/addmoney/instruction/normal/cashcard.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:75px;
+        height:75px;
+    }
+    #kiosk_truemoney{
+		background-image: url('../images/addmoney/other_kiosk/icon_truemoney.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+    #kiosk_boonterm{
+		background-image: url('../images/addmoney/other_kiosk/icon_boonterm.png');
+		width:75px;
+		height:68px;
+		background-repeat: no-repeat;
+	}
+	#kiosk_my_pay{
+		background-image: url('../images/addmoney/other_kiosk/icon_my_pay.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_bb_topup{
+		background-image: url('../images/addmoney/other_kiosk/icon_bb_topup.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_easy_topup{
+		background-image: url('../images/addmoney/other_kiosk/icon_easy_topup.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_feel_top{
+		background-image: url('../images/addmoney/other_kiosk/icon_feel_top.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_saduak{
+		background-image: url('../images/addmoney/other_kiosk/icon_saduak.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_soontri_machine{
+		background-image: url('../images/addmoney/other_kiosk/icon_soontri_machine.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+
+   body{
+   		
+   }
+  
+/*   #wrapper_bankdetail_content li{
+		background-image: url('../images/addmoney/instruction/retina/icon-4.png');
+	    background-position: 0 0px;
+	    background-repeat: no-repeat;
+	    padding-left: 2em;
+	    background-size:26px 26px;
+	    padding-bottom: 10px;
+   }*/
+   
+  	#bay_logo{
+		background-image: url('../images/addmoney/instruction/retina/Bank-ks-1.png');	
+		background-size:75px 75px;
+	}
+	#bbl_logo{
+		background-image: url('../images/addmoney/instruction/retina/Bank-bk-1.png');	
+		background-size:75px 75px;
+	}
+	#ktb_logo{
+		background-image: url('../images/addmoney/instruction/retina/Bank-ktb-1.png');	
+		background-size:75px 75px;
+	}
+	#tmb_logo{
+		background-image: url('../images/addmoney/instruction/retina/Bank-tmb-1.png');		
+		background-size:75px 75px;
+	}
+	#scb_logo{
+		background-image: url('../images/addmoney/instruction/retina/Bank-SCB-1.png');
+		background-size:75px 75px;
+	}
+	#cimbt_logo{
+        background-image: url('../images/addmoney/instruction/retina/Bank-cimbt.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+        width:75px;
+        height:75px;
+    }
+    #tbank_logo{
+        background-image: url('../images/addmoney/instruction/retina/Bank-tbank.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+        width:75px;
+        height:75px;
+    }
+	#cp_logo{
+		background-image: url('../images/addmoney/instruction/retina/logo-CP-retina.png');
+		background-size:75px 75px;
+	}
+	#true_logo{
+		background-image: url('../images/addmoney/instruction/retina/logo-True-retina.png');
+		width:75px;
+		height:75px;
+		background-size:75px 75px;
+	}
+	#seveneleven_logo{
+		background-image: url('../images/addmoney/instruction/retina/seven-retina.png');
+		background-size: 68px;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:75px;
+	}
+	#kiosk_logo{
+		background-image: url('../images/addmoney/other_kiosk/icon_truemoney@2x.png');
+		width:75px;
+		height:75px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#tmx_logo{
+        background-image: url('../images/addmoney/instruction/retina/tmx.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:75px;
+        height:75px;
+    }
+    #cashcard_logo{
+        background-image: url('../images/addmoney/instruction/retina/cashcard.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:75px;
+        height:75px;
+    }
+    #kiosk_truemoney{
+		background-image: url('../images/addmoney/other_kiosk/icon_truemoney@2x.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+    #kiosk_boonterm{
+		background-image: url('../images/addmoney/other_kiosk/icon_boonterm@2x.png');
+		width:75px;
+		height:68px;
+		background-repeat: no-repeat;
+	}
+	#kiosk_my_pay{
+		background-image: url('../images/addmoney/other_kiosk/icon_my_pay@2x.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_bb_topup{
+		background-image: url('../images/addmoney/other_kiosk/icon_bb_topup@2x.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_easy_topup{
+		background-image: url('../images/addmoney/other_kiosk/icon_easy_topup@2x.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_feel_top{
+		background-image: url('../images/addmoney/other_kiosk/icon_feel_top@2x.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_saduak{
+		background-image: url('../images/addmoney/other_kiosk/icon_saduak@2x.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	#kiosk_soontri_machine{
+		background-image: url('../images/addmoney/other_kiosk/icon_soontri_machine@2x.png');
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+		width:75px;
+		height:68px;
+	}
+	
+	.banklogo{
+		position:absolute;
+		top:5px;
+		left:5%;
+		display: block;
+	}
+    .bankdetail{
+        position:absolute;
+        top:25px;
+        left:33%;
+    }
+
